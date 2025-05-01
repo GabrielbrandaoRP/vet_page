@@ -1,10 +1,9 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <div>
-      Hello Next
-      
-    </div>
-  );
+    <main>
+      <h1>Pagina inicial</h1>
+    </main>
+  )
 }
