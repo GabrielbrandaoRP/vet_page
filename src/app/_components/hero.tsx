@@ -33,9 +33,9 @@ export function Hero() {
               Oferecemos os melhores serviços para garantir o bem-estar e a felicidade do seu amigo de quatro patas.
             </p>
 
-            <a href="#"
+            <a href='https://wa.me/5583987765674?text= Olá pelo site e gostaria de mais informações'
               className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center
-                justify-center gap-2 w-fit"
+                justify-center gap-2 w-fit" target="_blank"
             >
             <IconBrandWhatsapp size={28}/>
               Contato via whatsapp
