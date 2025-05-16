@@ -43,15 +43,15 @@ export function About() {
             </p>
 
             <ul className="space-y-4">
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2 text-black">
                 <Check className="text-red-500"/>
                 Aberto desde 2001
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2 text-black">
                 <Check className="text-red-500"/>
                 Equipe com mais de 10 veterinários
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2 text-black">
                 <Check className="text-red-500"/>
                 Qualidade é nossa prioridade
               </li>
