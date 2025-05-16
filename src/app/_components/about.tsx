@@ -11,7 +11,7 @@ export function About() {
       <div className="container px-4 mx-auto ">
 
         <div className=" grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
+          <div className="relative" data-aos-delay="200" data-aos="fade-up-right">
             {/* Img 1 */}
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
@@ -19,7 +19,7 @@ export function About() {
                 alt="Foto de uma pessoa com um Cachorro"
                 fill
                 quality={100}
-                className="object-coverhover:scale-110 duration-300"
+                className="object-cover hover:scale-110 duration-300"
                 priority
               />
             </div>
@@ -35,7 +35,7 @@ export function About() {
             </div>
           </div>
           {/* Div do sobre */}
-          <div className="space-y-6 mt-10">
+          <div className="space-y-6 mt-10" data-aos-delay="100" data-aos="fade-up-left">
             <h2 className="text-4xl font-bold">Sobre</h2>
 
             <p>
