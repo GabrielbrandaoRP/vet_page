@@ -21,7 +21,7 @@ export function Footer() {
       <div className='container mx-auto px-4'>
         <div className='border-b border-white/20 pb-8'>
           <h4 className='text-3xl font-semibold mb-8 text-center'>Marcas que trabalhamos</h4>
-          <div className='grid grid-cols-2 lg:grid-cols-6 gap-8'>
+          <div className='grid grid-cols-2 lg:grid-cols-6 gap-8' data-aos="fade-left" data-aos-delay="200">
           {brands.map((item,index) => (
             <div key={index} className='bg-white p-4 rounded-lg flex items-center justify-center' >
               <Image
@@ -42,7 +42,8 @@ export function Footer() {
         </div>
         </div>
         
-        <footer className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5'>
+        <footer className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5'
+          data-aos="flip-up" data-aos-delay="200">
           <div>
             <h3 className='text-2xl font-semibold mb-2'>You Pet shop</h3>
             <p className='mb-4'>Cuidando do seu melhor amigo da melhor forma </p>

@@ -66,7 +66,7 @@ export function Services() {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-12 text-black">Serviços</h2>
         
-        <div className="relative">
+        <div className="relative" data-aos="flip-left" data-aos-delay="300">
           <div className='overflow-hidden' ref={emblaRef}>
             <div className='flex'>
               {services.map((item, index) => (
