@@ -36,9 +36,9 @@ export function About() {
           </div>
           {/* Div do sobre */}
           <div className="space-y-6 mt-10" data-aos-delay="100" data-aos="fade-up-left">
-            <h2 className="text-4xl font-bold">Sobre</h2>
+            <h2 className="text-4xl font-bold text-black">Sobre</h2>
 
-            <p>
+            <p className="text-black">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, corrupti? Nisi illo id ea, vitae necessitatibus voluptatibus. Laudantium, eius est optio itaque, cupiditate minus, non sed aut modi totam eligendi?
             </p>
 
